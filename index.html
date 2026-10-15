@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Portal</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f6fb;
+            color: #243047;
+        }
+
+        header {
+            background: #163b72;
+            color: white;
+            padding: 24px;
+            text-align: center;
+        }
+
+        nav {
+            background: #102b52;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            max-width: 1050px;
+            margin: 25px auto;
+            padding: 0 18px;
+        }
+
+        h2 {
+            color: #163b72;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #00000012;
+        }
+
+        .number {
+            color: #087e8b;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .notice {
+            background: #e2f4ed;
+            border-left: 5px solid #14865c;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background: #163b72;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Placement Portal</h1>
+        <p>University Placement and Career Development Cell</p>
+    </header>
+
+    <nav>
+        <a href="#statistics">Statistics</a>
+        <a href="#students">Students</a>
+        <a href="#companies">Companies</a>
+        <a href="#drives">Recruitment Drives</a>
+    </nav>
+
+    <main>
+        <section id="statistics">
+            <h2>Placement Statistics</h2>
+            <div class="cards">
+                <div class="card">
+                    <p>Total Students Placed</p>
+                    <div class="number">850+</div>
+                </div>
+                <div class="card">
+                    <p>Recruiting Companies</p>
+                    <div class="number">75+</div>
+                </div>
+                <div class="card">
+                    <p>Highest Package</p>
+                    <div class="number">₹25 LPA</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="students">
+            <h2>Student Profiles</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Arun Kumar</h3>
+                    <p>Branch: Computer Science</p>
+                    <p>CGPA: 8.9</p>
+                    <p>Skills: C++, Java, SQL</p>
+                </div>
+                <div class="card">
+                    <h3>Priya Sharma</h3>
+                    <p>Branch: Information Technology</p>
+                    <p>CGPA: 9.1</p>
+                    <p>Skills: Python, Web Development</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="companies">
+            <h2>Company Information</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Infosys</h3>
+                    <p>Role: Systems Engineer</p>
+                    <p>Eligibility: CGPA 6.0 or above</p>
+                </div>
+                <div class="card">
+                    <h3>TCS</h3>
+                    <p>Role: Software Developer</p>
+                    <p>Eligibility: No active backlogs</p>
+                </div>
+                <div class="card">
+                    <h3>Accenture</h3>
+                    <p>Role: Associate Software Engineer</p>
+                    <p>Eligibility: Relevant degree and skills</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="drives">
+            <h2>Upcoming Recruitment Drives</h2>
+            <div class="card">
+                <h3>Infosys Recruitment Drive</h3>
+                <p>Date: 25 November 2026</p>
+                <p>Registration: Contact the placement cell</p>
+            </div>
+            <div class="notice">
+                <strong>Announcement:</strong>
+                Eligible students should register with the placement
+                cell and prepare their updated resumes.
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>University Placement Cell | Student Career Portal</p>
+    </footer>
+</body>
+</html>
